@@ -5,11 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO INTRODUCCION A JS</title>
     <link rel="stylesheet" href="./public/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+
+    
 </head>
 <body>
-    <h1>HOLA MUNDO</h1>
+    <h1>
+        Suma de dos numeros
+    </h1>
+    <hr>
+    <label for="numero_1">Ingrese primer numero</label>
+    <input value="10" type="number" id="numero_1" class="form-control">
+    <br>
+    <label for="numero_2">Ingrese segundo numero</label>
+    <input value="5" type="number" id="numero_2" class="form-control">
+    <br>
+    <button onclick="calcular_suma()" class="btn btn-primary" id="btn_sumar">SUMAR</button>
+
+    <br>
+    <h1 id="txt_resultado"></h1>
+
 
 
     <script src="./public/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="./public/js/suma.js"></script>
 </body>
 </html>
